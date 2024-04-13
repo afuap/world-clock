@@ -11,25 +11,28 @@
   <body>
     <div class="container">
       <h1>World Clock 🕔</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">Accra</option>
-        <option value="">Barcelona</option>
-        <option value="">Chicago</option>
+        <option value="Africa/Lagos">Lagos</option>
+        <option value="Europe/Rome">Rome</option>
+        <option value="Asia/Singapore">Singapore</option>
       </select>
-      <div class="city" id="accra">
-        <div>
-          <h2>Accra 🇬🇭</h2>
-          <div class="date">April 12th 2024</div>
+
+      <div id="cities">
+        <div class="city" id="accra">
+          <div>
+            <h2>Accra 🇬🇭</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">02:43:15 <small>AM</small></div>
-      </div>
-      <div class="city" id="chicago">
-        <div>
-          <h2>Chicago 🇺🇸</h2>
-          <div class="date">April 11th 2024</div>
+        <div class="city" id="chicago">
+          <div>
+            <h2>Chicago 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">09:43:15 <small>PM</small></div>
       </div>
     </div>
     <footer>
